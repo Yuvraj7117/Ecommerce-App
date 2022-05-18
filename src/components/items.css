@@ -1,0 +1,94 @@
+
+.cardss{
+    margin-top: 7vh;
+    transition: 1s ease-in-out;
+}
+
+.cardss:hover{
+    cursor: pointer;  
+    opacity: 0.9;
+    box-shadow: 0px 0px 20px 0.5px; 
+}
+
+.cardss:hover .hovering{
+    opacity:1;
+
+}
+.hovering{
+    opacity: 0;
+    position: relative;
+    top:20vh;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    transition:0.5s ease-in-out;
+}
+ .fav{
+   
+    background-color: azure;
+    border-radius: 50px;
+ }
+
+ .cart{
+ 
+    background-color: azure;
+    border-radius: 50px;
+ }
+
+.fav:hover{
+    color:red;
+    background-color: pink;
+    opacity: 0.9;
+    box-shadow: 0px 0px 20px 0.5px; 
+}
+
+.cart:hover{
+   
+    color:red;
+    background-color: pink;
+    box-shadow: 0px 0px 10px 0.5px; 
+}
+.image{
+    height:17vh;
+    width:10vw;
+    object-fit: contain;
+}
+.ratings{
+    display: flex;
+    color:orange;
+    margin-left: 35%;
+   
+}
+
+.card-textp{
+    color:red;
+}
+
+.pricecut{
+    color: grey;
+    text-decoration: line-through 3px;
+    margin-left: 15px;
+}
+
+@media (max-width:680px){
+    .image{
+        width:60vw;
+        height:30vh;
+        margin-left: 4vw;
+    }
+
+    .cardss{
+        width:70vw;
+    }
+    .card-text{
+        margin-left:2rem;
+    }
+
+    .card-textp{
+        margin-left:-2rem;
+        
+    }
+
+
+
+}

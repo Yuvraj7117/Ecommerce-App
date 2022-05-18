@@ -1,0 +1,32 @@
+.carousel{
+    border : 1px solid white;
+}
+.fp{
+    width:85%;
+    margin: 50px;  
+    
+}
+.fp img{
+    width:30%;
+    margin-left: -60%;
+   
+}
+.fpdetails{
+    
+    width:70%;
+    margin-left: 5vw;
+    margin-top: -5vw;
+    line-height: 0px;
+
+}
+.fpdetails h4{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.price{
+    display:flex;
+    justify-content: space-around;
+}
+
+

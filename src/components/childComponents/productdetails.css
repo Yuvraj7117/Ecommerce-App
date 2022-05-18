@@ -1,0 +1,144 @@
+.container{
+    display: flex;
+
+
+}
+.detailsfirstdiv{
+
+    width:30%;
+   margin-top: 40px;
+}
+.detailsfirstdiv :first-child{
+    position: absolute;
+    top:50px;
+    left:100px;
+    z-index: 20;
+    font-size: 20px;  
+}
+
+.goBack{
+    background:rgb(197, 25, 197);
+    padding:10px;
+    border-radius: 20px;
+    width:25%;
+    transition: 0.5s ease-in-out;
+}
+
+.goBack:hover{
+    color:rgb(197, 25, 197);
+    background:black;
+}
+
+.leftArrow{
+    padding: 0px;
+    margin:-6vh -9vw;
+    
+   background-color:white !important;
+}
+
+.detailsfirstdiv img{
+    width:20vw;
+    margin-left: -3vw;
+}
+
+.detailsseconddiv{
+    margin-top: 25%;
+    width:100%;
+    text-align: center;
+}
+
+.detailsseconddiv h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.detailsseconddiv h5{
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.qty{
+    display: flex;
+    justify-content: space-between;
+    width:6vw;
+    margin:12vh 13.5vw;
+    padding:5px;
+    background-color: pink;
+    border-radius: 10px;
+    
+}
+
+.qty h4{
+    display: flex;
+    align-items: center;
+}
+
+.addCart{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:50%;
+    margin-top: 10vh;
+    position:relative;
+    left:3vw;
+   
+    
+}
+
+.addCart h3{
+    margin:12vh 8.5vw;
+    margin-top: -5vh;
+    padding:10px;
+    width:50%;
+    background-color:black;
+    border-radius: 10px;
+    color:aliceblue;
+    display:flex;
+    justify-content: center;
+    transition:0.5s ease-in-out
+    
+}
+
+.addCart h3:hover{
+    background-color:  blue;
+    cursor:pointer
+}
+
+
+@media (max-width:680px){
+    .container{
+      display:block
+    }
+    .leftArrow{
+        margin:-6vh -35vw
+    } 
+    .goBack{
+       margin-left:-5vh
+    }
+    .detailsfirstdiv img{
+        width:200%;
+        margin:20px 18vw
+    }
+    .detailsseconddiv {
+       margin: 0;
+    }
+    .detailsseconddiv hr{
+        display: none;
+    }
+   
+    .addCart{
+        width:100%;
+        margin: 0;
+        height:20vh;
+
+    }
+    
+    .qty{
+        margin:0px 30vw;
+        width:30%;
+        text-align: center;
+    }
+    .addCart h3{
+        width:60%;
+        margin-top:2vh;
+        margin-left: 16vw;
+        
+    }
+}

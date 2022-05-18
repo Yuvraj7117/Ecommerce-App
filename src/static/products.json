@@ -1,0 +1,185 @@
+{
+  "product": [
+    {
+      "_id": "1",
+      "name": "Apple Macbook Pro",
+      "image": "./images/miscellaneous/appleMacbookpro.jpeg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "mac"
+     
+    },
+    {
+      "_id": "2",
+      "name": "Apple Macbook Pro",
+      "image": "./images/miscellaneous/appleMacbookpro.jpeg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "mac"
+     
+    },
+    {
+      "_id": "3",
+      "name": "Apple Macbook Air",
+      "image": "./images/miscellaneous/AppleMacbookAir.png",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "mac"
+     
+    },
+    {
+      "_id": "4",
+      "name": "Apple iPhone 11",
+      "image": "./images/miscellaneous/iphone11.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "iphone"
+     
+    },
+    {
+      "_id": "5",
+      "name": "iPhone pro",
+      "image": "./images/miscellaneous/iphonePro.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "iphone"
+     
+    },
+    {
+      "_id": "6",
+      "name": "Apple Ipad",
+      "image": "./images/miscellaneous/ipad.png",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "ipad"
+     
+    },
+    {
+      "_id": "7",
+      "name": "Apple Watch 2.0",
+      "image": "./images/miscellaneous/appleWatchband.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "accessories"
+     
+    },
+    {
+      "_id": "8",
+      "name": "Apple iPod 2A",
+      "image": "./images/miscellaneous/ipodMobile.png",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "ipod"
+     
+    },
+    {
+      "_id": "9",
+      "name": "Apple Smartwatch",
+      "image": "./images/miscellaneous/smartWatch.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "accessories"
+     
+    },
+    
+    {
+      "_id": "10",
+      "name": "Apple Homepod mini ",
+      "image": "./images/miscellaneous/appleHomepod.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "accessories"
+     
+    },
+    {
+      "_id": "11",
+      "name": "Apple Earpod Max",
+      "image": "./images/miscellaneous/appleHeadphone.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "accessories"
+     
+    },
+    {
+      "_id": "12",
+      "name": "Apple Camera",
+      "image": "./images/miscellaneous/lens.png",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "accessories"
+     
+    },
+    {
+      "_id": "13",
+      "name": "iPhone Light Dock-Gold",
+      "image": "./images/miscellaneous/iphoneLight.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "accessories"
+     
+    },
+    {
+      "_id": "14",
+      "name": "Apple Magic Trackpad 2",
+      "image": "./images/miscellaneous/trackpad.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "accessories"
+     
+    },
+    {
+      "_id": "15",
+      "name": "Apple Charger",
+      "image": "./images/miscellaneous/iphoneCharger.jpeg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": " accessories"
+     
+    },
+    {
+      "_id": "16",
+      "name": "New Apple Mac Mini",
+      "image": "./images/miscellaneous/appleLogo.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "mac"
+     
+    },
+    {
+      "_id": "17",
+      "name": "Apple Smartwatch Magic",
+      "image": "./images/miscellaneous/appleWatch.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "accessories"
+     
+    },
+    {
+      "_id": "18",
+      "name": "Apple Airpods",
+      "image": "./images/miscellaneous/appleEarphone.jpg",
+      "price": "$499",
+      "previousprice":"$599",
+      "Ratings": "4",
+      "Category": "ipod"
+     
+    }
+  ]
+}

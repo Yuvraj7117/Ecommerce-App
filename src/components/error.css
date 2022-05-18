@@ -1,0 +1,56 @@
+.errorcontainer{
+  margin: 10vh 20vw;
+  width:60vw;
+  font-size: 50px;
+  text-align: center;
+  line-height: 0vh;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.errorcontainer h2{
+    color:red;
+    font-size: 150px;
+
+}
+
+.errorcontainer h1{
+    margin-left:2vw;
+    font-family:cursive;
+}
+.errorcontainer p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.errorback{
+    background-color: blue;
+    width:20%;
+    height: 7vh;
+    font-size: 30px;
+    margin-left: 40vw;
+    color:aliceblue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.errorback:hover{
+    background-color: aliceblue;
+    color:blue;
+}
+
+
+@media (max-width:680px){
+    .errorback{
+        width:50%;
+        height:7vh;
+        align-items: center;
+        margin-left: 25vw;
+    }
+    .errorcontainer p{
+        font-size: 20px;
+        
+    }
+}

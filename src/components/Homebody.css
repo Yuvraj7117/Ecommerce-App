@@ -1,0 +1,330 @@
+.mobileNavbar{
+   display: block;
+}
+.heading{
+  display: none;
+}
+.secondImage {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
+
+
+
+.bestSeller h3 {
+  color: black;
+  padding-top: 5vh;
+  margin-left: 45%;
+}
+
+.bestSellerUl {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 25vw;
+}
+
+.bestSellerUl li{
+  list-style: none;
+  
+}
+
+.bestSellerUl li:hover {
+  cursor: pointer;
+  text-decoration: underline 3px;
+  color: blue;
+  
+}
+
+.bestSellerSe {
+  display: none;
+}
+
+.homecards{
+  width:70%;
+  margin-left: 15vw;
+
+}
+
+.item{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.item:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  box-shadow: 0px 0px 20px 0.5px;
+}
+
+.loadmore {
+  margin-left: 45vw;
+  margin-top: 10vh;
+  color: blue;
+  text-decoration: underline 3px;
+  
+}
+
+.loadmore:hover{
+  cursor: pointer;
+}
+
+.banner {
+  height: 50vh;
+  background-color: rgb(0, 119, 255);
+  margin-top: 100px;
+}
+
+.banner img {
+  width: 25%;
+  margin-left: 60vw;
+  margin-top: -50px;
+}
+
+.bannerFont {
+  position: relative;
+  top: -30vh;
+  left: 20vw;
+  color: white;
+  font-size: 50px;
+}
+
+.banner h6 {
+  position: relative;
+  top: -30vh;
+  left: 20vw;
+  color: white;
+  font-size: 20px;
+  width: 20%;
+}
+
+.banner p {
+  position: relative;
+  top: -30vh;
+  left: 20vw;
+  color: white;
+  font-size: 20px;
+  width: 8%;
+  text-decoration: underline 3px;
+  cursor:pointer;
+}
+
+.shippingBlock {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  text-align: center;
+  line-height: 30px;
+}
+
+.shipping :first-child {
+  color: red;
+  font-size: 30px;
+}
+
+.loremfont {
+  width: 20vw;
+  text-align: center;
+}
+
+.featuredProducts {
+  text-align: center;
+  padding: 50px;
+}
+.cards {
+  display: flex;
+  width: 85%;
+}
+
+.ishopFooter {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin-left: 10vw;
+  margin-top: 5vw;
+}
+
+.ishopdiv {
+  width: 25vw;
+}
+
+.followUs {
+  width: 25vw;
+}
+
+.contactUs {
+  width: 25vw;
+}
+
+.lastdiv {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vw;
+  margin-left: 5vw;
+}
+
+.lastdivChild ul {
+  line-height: 30px;
+  margin-top: 20px;
+  margin-left: 5vw;
+}
+
+.lastdivChild h4{
+  margin-left: 5vw;
+}
+
+.lastdivChild ul:hover {
+  cursor: pointer;
+}
+
+.facebook:hover {
+  cursor: pointer;
+}
+
+.twitter:hover {
+  cursor: pointer;
+}
+
+.mobile-navbar {
+  display: none;
+}
+.products:hover{
+  cursor: pointer;
+}
+
+.carouselImg{
+  width:20%;
+}
+
+
+
+@media (max-width: 680px) {
+  .mobileNavbar{
+    display: none;
+ }
+  .heading{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .homecards{
+    display: block;
+  }
+  .heading h1{
+    color:rgb(250, 71, 0);
+    margin-left:-10vw;
+    margin-top: 2vh;
+    font-size: 40px;
+
+  }
+  .hamburger{
+    display: block;
+    font-size: 40px;
+    margin: 10px 5px;
+    position: relative;
+    left:15vw;
+  }
+  .hamburger:hover{
+   cursor: pointer;
+  }
+
+  .input {
+    margin: 45px 20px;
+    padding-top: 50px;
+    border-top: 3px solid white;
+  }
+
+  .input input {
+    border-radius: 60px;
+    font-size: 35px;
+    border: none;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .shippingBlock {
+    display: block;
+    width: 100%;
+  }
+
+  .shipping :first-child {
+    font-size: 50px;
+  }
+
+  .loremfont {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .ishopFooter {
+    display: block;
+    text-align: center;
+  }
+  .ishopdiv {
+    width: 80vw;
+  }
+  .followUs {
+    width: 80vw;
+  }
+  .contactUs {
+    width: 80vw;
+  }
+  .lastdiv {
+    display: block;
+    text-align: center;
+  }
+  .lastdivChild ul:hover {
+    cursor: pointer;
+  }
+
+  .lastdivChild ul li {
+    display: none;
+   
+  }
+  .firstImage {
+    display: none;
+
+  }
+
+  .secondImage {
+    display: block;
+    margin-top: -40px;
+    height:100vh;
+    position: relative;
+    left:-10vw;
+  }
+
+  .bestSellerUl {
+    display: none;
+  }
+
+  .bestSellerSe {
+    display: block;
+    width: 80vw;
+    height: 50px;
+    text-align: center;
+    margin-left: 40px;
+    background-color: rgb(219, 218, 218);
+    border: none;
+  }
+
+  .bestSellerSe:hover {
+    cursor: pointer;
+  }
+
+  .cards{
+    display:flex;
+    flex-direction: column;
+    margin-left:30px;
+    align-items: center;
+  }
+
+  
+}

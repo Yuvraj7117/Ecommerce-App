@@ -1,0 +1,209 @@
+body{
+ 
+    box-sizing: border-box;
+
+}
+
+.close {
+   display:none;
+}
+
+ .box{
+
+ display: none;
+ }
+
+ 
+
+@media(max-width:680px){
+
+  
+    .close {
+        font-size: 30px;
+        font-weight: 10px;
+        color:red;
+        border:none;
+        position: absolute;
+        top:10px;
+        left:30px;
+        display: block;
+}
+
+     .box{
+        display:block;
+        height:100vh;
+        width:100vw;
+        backdrop-filter: blur(30px);
+        position: fixed;
+        top:0;
+        z-index: 7;
+     }
+
+     .search {
+     
+        text-align: center;
+      }
+    
+      .search:hover {
+        cursor: pointer;
+      }
+
+      .search input{
+      
+        font-size: 30px;
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+        border:none;
+        outline:none;
+        
+        
+        
+      }
+
+      .searchIcon{
+          margin-left:20px;
+          background-color: white;
+          position:relative;
+          top:12px;
+          width:45px;
+          height:48px;
+          padding: 7px;
+          border-top-left-radius: 200px ;
+          border-bottom-left-radius: 200px;
+
+      }
+   
+    
+    
+      .close:hover {
+        cursor: pointer;
+      }
+
+      .mobileHeading{
+          
+        position:relative;
+        top:5vh;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 3px solid white;
+        
+      }
+
+      .userIcons{
+        margin-top: 20px;
+        width:50vw ;
+        font-size: 20px;
+        display:flex; 
+        justify-content:space-around ;
+}  
+
+      .carts{
+        margin-top: 5vh;
+        font-size: 20px;
+        display:flex; 
+        justify-content:space-around ;
+        color:whitesmoke
+        
+      }
+
+      .carts :first-child{
+        display: flex;
+        margin-top:5px ;
+        cursor: pointer;
+      }
+
+      .price{
+          margin-left: 10px;
+          color:rgb(87, 79, 79);
+
+      }
+
+      .profile{
+        margin-top: 25px;
+        width:30vw ;
+        position: relative;
+        left:30px;
+        font-size: 20px;
+        display:flex; 
+        color:white;
+        cursor: pointer;
+      }
+
+      
+      .profile:first-child{
+          margin-top: 5vh;
+      }
+
+      .profile p{
+          font-size: 15px;
+          width:30vw;
+         
+      }
+
+      .userCurr{
+        margin-top: 20px;
+        font-size: 25px;
+        display:flex; 
+        justify-content:space-around ;   
+    }
+
+    .searched{
+      margin: 10vw 15vw;
+      display: flex;
+    }
+    .searched input{
+        width:80%;
+        height:7vh;
+        border:hidden;
+        border-top-right-radius:5vw;
+        border-bottom-right-radius:5vw;
+        outline: none;
+    }
+    .searchedIcon{
+      background-color: white;
+      font-size: 40px;
+      font-size: 9.2vw;
+      border-top-left-radius:5vw;
+      border-bottom-left-radius:5vw;
+      padding: 10px;
+      cursor: pointer;
+      
+    }
+
+    .headingss{
+        height:60vh;
+        line-height: 9vh;
+        font-size: large;
+        color: aliceblue;
+        align-items: center;
+        margin-left: -5vw;
+
+    }
+
+    .link{
+        text-decoration: none;
+        color:white;
+      
+
+    }
+    .headingss ul li{
+      list-style: none;
+      
+    }
+    .headingss ul li:hover{
+        cursor:pointer;
+        color:rgb(129, 118, 118);
+       
+     
+    }
+
+    .headingss ul{
+        position:relative;
+        left:40vw;
+        align-items: center;
+  
+        
+    }
+
+  
+}

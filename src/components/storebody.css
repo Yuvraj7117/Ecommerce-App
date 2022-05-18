@@ -1,0 +1,320 @@
+body{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+
+}
+.headingg{
+    display: none;
+}
+
+.main{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+
+.main h5{
+    background: rgb(240, 239, 239);
+    width:150%;
+    margin-left: -25vw;
+    padding:10px;
+    color: rgb(0, 162, 255); 
+}
+
+.firstdiv{
+
+    display:flex;
+}
+
+.accessoriesss{
+    width:25%;
+    background-color:rgb(240, 239, 239) ;
+    padding:10px;
+
+}
+
+.accessoriesss h6{
+    margin-left: -9.5vw;
+}
+.accessoriesss ul {
+   text-align: left;
+   
+}
+.bannerimage{
+   height: 53vh;
+   width:75%;
+   background-color:rgb(0, 162, 255); 
+   display: flex;
+   overflow-y:hidden;
+   margin-left: 1vw;
+}
+
+.bannerimage img{
+    height:55vh;
+    position:relative;
+    bottom:2vh;
+    left:7vw;
+}
+
+.bannerfonts{
+   color:azure;
+   margin-top: 3rem;
+}
+
+.bannerfonts h2,h6,p{
+  padding-top:3vh;
+}
+
+.bannerfonts p:hover{
+    cursor: pointer;
+}
+
+.secondmaindiv{
+    padding-top: 5vh;
+    display: flex;
+
+}
+.seconddiv{
+    width:25%;
+}
+
+.more{
+    background-color:rgb(240, 239, 239) ;
+    margin-top: 5vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:40px
+    
+}
+.card{
+    margin-top:-10px;
+} 
+.prices{
+
+    background-color: rgb(240, 239, 239);
+    height:20vh;
+
+}
+
+.prices h6{
+    margin-left:-13vw
+}
+
+.rangeslider{
+    padding:0vw 2vw;
+}
+
+.range{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirddiv{
+    width:75%;
+    margin-left: 1vw;   
+}
+.productshead{
+     display: flex;
+     background-color:rgb(240, 239, 239);
+     height:3vw;
+     margin-top: -5vh;
+     justify-content: space-between;
+}
+.productshead1{
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    padding:5px 0px;
+    
+}
+
+.productshead1 p{
+    margin-top: -20px;
+    margin-left: 30px;
+    cursor: pointer;
+   
+}
+
+.gridlisticons{
+    width:5vw;
+    font-size: 30px;
+    text-align:none;
+}
+.gridlisticons :first-child:hover{
+    cursor: pointer;
+}
+
+.gridlisticons :last-child:hover{
+    cursor: pointer;
+}
+
+.color{
+    background-color:rgb(240, 239, 239);
+    margin-top: 5vh;
+    height:15vh;
+    text-align: left;
+}
+.color h6{
+    padding-left: 30px;  
+}
+.circles{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.circles:active{
+    cursor: pointer;
+}
+
+.brand{
+    margin-top: 5vh;
+     background:rgb(240, 239, 239);
+     text-align: left;
+     line-height: 30px;
+
+}
+
+.brand h6{
+      margin-left:30px;
+      font-weight: 800;
+}
+
+.products{
+    display: flex;
+    border:1px solid;
+    width:15vw
+}
+
+.products img{
+   width:10vw;
+   
+}
+
+.image{
+    height:15vh; 
+}
+
+.paginations{
+    display:flex;
+    text-align: center;
+    margin-top:5vh;
+    background:rgb(240, 239, 239); 
+}
+.pagination{
+    
+     width:15vw;
+     height:5vh;
+     justify-content: space-between;
+     margin: 2px 23vw;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     font-size: 25px;
+     
+    }
+.pagination li{ 
+    width:3vw;
+    padding: 0.5vw;  
+}
+
+.pagination li:hover{
+    
+  background-color: rgb(77, 72, 72);
+  color:#fff;
+  cursor: pointer;
+}
+
+
+
+@media(max-width:680px){
+    .headingg{
+        display:flex;
+        position: absolute;
+        top:0px;
+        left:17vw;
+        justify-content: space-between;
+        width:70%;
+        align-items: center;
+  
+    }
+
+    .headingg h1{
+        color:red;
+    }
+
+    .HamburgerMenu{
+        font-size: 35px;
+        cursor: pointer;
+       
+    }
+
+  .main h5{
+      display: none;
+  }  
+ .accessoriesss {
+     display: none;
+ }
+ .bannerimage{
+     width: 100%;
+     height:45vh
+ }
+ .bannerfonts{
+     margin:5px;
+     margin-left: -20px;
+     width:50%;
+ }
+ .bannerfonts h2{
+     margin-left: 20px;
+ }
+
+ .bannerimage img{
+    width:43%;
+    height:65%;
+    margin-top: 120px;
+ }
+
+ .seconddiv{
+     display: none;
+ }
+
+ .card{
+     width:100%;
+     padding-left: 10px;
+ }
+
+ .productshead{
+   margin-top: 3vw;
+   height:8vw;
+   width:130%
+ }
+ .productshead1{
+     margin-left: -25px;
+     width: 60%;
+ }
+
+ .gridlisticons{
+     width:20vw;
+   
+ }
+ .paginations{
+     width:130%;
+
+ }
+ .pagination{
+    width:50%;
+
+}
+
+
+
+
+ 
+
+
+  
+}
+
+

@@ -1,0 +1,24 @@
+.layoutdiv{
+  display: flex;
+  justify-content: space-around;
+  width:80%;
+  height: 35vh;
+  margin-left: 1%;
+  margin-top: -0.9%;
+  background-color: white;
+  box-shadow: 1px 6px 10px 0px;
+  position: fixed;
+  z-index:9;
+}
+.pop_ul{
+  display: block;
+  flex-direction: column;
+  line-height: 25px;
+}
+
+.pop_ul li:hover{
+ color:grey;
+ cursor: pointer;
+ background-color: rgb(230, 187, 194);
+ border-radius: 90%;
+}
